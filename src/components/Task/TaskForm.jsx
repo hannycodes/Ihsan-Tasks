@@ -65,7 +65,7 @@ const TaskForm = ({ onSubmit, initialTask }) => {
         <option value="Medium">Medium</option>
         <option value="High">High</option>
       </select>
-      <button className="w-full p-2 mt-[5px] border border-[#ccc] rounded-[5px] text-base box-border bg-green-500 hover:bg-yellow-500"type="submit">{initialTask ? "Update Task" : "Add Task"}</button>
+      <button className="w-full p-2 mt-[5px] border border-[#ccc] rounded-[5px] text-base box-border bg-[#CAE8BD] hover:bg-[#B0DB9C]"type="submit">{initialTask ? "Update Task" : "Add Task"}</button>
     </form>
   );
 };

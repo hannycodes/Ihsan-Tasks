@@ -21,7 +21,7 @@ const TaskCard = ({ title, description, dueDate, priority, completed, onToggle, 
   };
 
   return (
-    <div className= "flex justify-between items-center bg-yellow-50  border border-[#ccc] rounded-lg p-3.5 mt-2.5 shadow-[0px_2px_5px_rgba(0,0,0,0.1)]">
+    <div className= "flex justify-between items-center bg-[#FCF9EA] border border-[#ccc] rounded-lg p-3.5 mt-2.5 shadow-[0px_2px_5px_rgba(0,0,0,0.1)]">
       <div >
        <h3 className={`text-[#2c3e50] mb-2 ${completed ? " line-through text-[#999]" : ""}`}>{title}</h3>
         {description && <p className="flex-grow flex-shrink flex-70 text-sm text-[#555]">{description}</p>}

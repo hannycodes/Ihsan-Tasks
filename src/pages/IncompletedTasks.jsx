@@ -27,7 +27,7 @@ export default function IncompletedTasks() {
               {...task}
               onToggle={() => handleToggleComplete(task.id)}
               onDelete={() => handleDelete(task.id)}
-              onEdit={() => {}}
+              onEdit={() => handleEdit(task.id)}
             />
           ))}
         </div>
